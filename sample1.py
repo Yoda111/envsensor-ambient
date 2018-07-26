@@ -26,7 +26,7 @@ while True:
             print('Illumination: {} lx'.format(data.val_light))
             print('Pressure: {} hPa'.format(data.val_pressure))
             print('Humidity: {} %'.format(data.val_humi)
-            print('discomfort index: {} '.format(data.val_di)
+            print('discomfort index: {} '.format(data.val_di))
 
         latest_update = data.tick_last_update
 
